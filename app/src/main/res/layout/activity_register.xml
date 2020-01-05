@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/UrsernameRegister"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#005A1F1F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/RegisterTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registrazione"
+                android:textAlignment="center"
+                android:textSize="36sp"
+                tools:layout_editor_absoluteX="-79dp"
+                tools:layout_editor_absoluteY="456dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="14sp" />
+
+            <TextView
+                android:id="@+id/RegisterUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:textAlignment="textStart"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/AttrUserRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="14sp" />
+
+            <TextView
+                android:id="@+id/RegisterPasw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/AttrPasswordRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="14sp" />
+
+            <TextView
+                android:id="@+id/RegisterConferm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Conferma password"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/AttrConfermRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="14sp" />
+
+            <TextView
+                android:id="@+id/RegisterCitta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Città di provenienza"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/AttrCittaRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="14sp" />
+
+            <TextView
+                android:id="@+id/DateRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data di nascita"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/AttrDateRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18sp" />
+
+            <Button
+                android:id="@+id/savebutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#16B920"
+                android:text="Registati"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#F1E9E9"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
